@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #302C42;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 5rem 8.4rem;
+  margin-bottom: 14.6rem;
+}
+
+header .soon {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header .linksHeader {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+header .linksHeader  a {
+  text-decoration: none;
+
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+header .button_header {
+  display: flex;
+  align-items: center;
+  gap: 3.8rem;
+}
+
+header button {
+  width: 15.4rem;
+  height: 4.8rem;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+header .button_header .contact {
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+
+  color: white;
+  font-weight: 700;
+} 
+
+header .button_header .contact:hover {
+  border: 4px solid #FFFFFF;
+}
+
+header .button_header .join {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border: none;
+  color: #343045;
+  font-weight: 700;
+}
+
+header .button_header .join:hover {
+  background: linear-gradient(90deg, #5e47bd 0%, #8170ce 100%);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .colum-A {
+  max-width: 55.6rem;
+  color: white;
+  margin-left: 8.5rem;
+}
+
+main .colum-A h2 {
+  font-size: 4.6rem;
+  line-height: 5.6rem;
+  font-weight: 700;
+}
+
+main .colum-A h2 span {
+  color: #C0B7E8;
+}
+
+main .colum-A p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+
+  margin-top: 3.6rem;
+  margin-bottom: 6.6rem;
+}
+
+main .button_main {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+main .button_main button {
+  width: 21.4rem;
+  height: 4.8rem;
+
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 4rem;
+
+  color: #343045;
+  font-weight: 700;
+
+  border: none;
+  
+  cursor: pointer;
+}
+
+main .button_main button:hover {
+  background: linear-gradient(90deg, #5f49b6 0%, #C0B7E8 100%);
+}
